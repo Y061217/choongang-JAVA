@@ -13,7 +13,7 @@ public class Print2 {
 		System.out.printf("%s : %s" ,"일검" ,"이검\n" );
 		System.out.print(0.1+0.2); 
 		// 부동 소수형 실수 연산은 처음부터 끝까지 근사값임 메모리에 무한대로 담을 수 없기때문에
-		
+		// 테스트
 	}
 
 }
