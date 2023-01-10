@@ -13,8 +13,8 @@ public class DBConnection {
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
 			String url = "jdbc:mariadb://wisejia.iptime.org:3306/springreference";
-			String id = "springreference";
-			String pw = "01234567";
+			String id = "";
+			String pw = "";
 			conn = DriverManager.getConnection(url,id,pw);
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block

@@ -19,9 +19,8 @@
 	
 	//DB연결하기 전 Map에 대응시켜 로그인 해보겠습니다.
 	Map<String,String> login = new HashMap<String, String>();
-	login.put("hong","01234567");
-	login.put("admin", "admin");
-	login.put("leedog","01234567");
+	login.put("hong","1111");
+
 	
 	//비교
 /* 	String msg;
