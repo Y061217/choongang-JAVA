@@ -32,8 +32,8 @@
 	Connection conn = null;
 	PreparedStatement pstmt = null;
 	String url = "jdbc:mariadb://wisejia.iptime.org:3306/springreference";
-	String id = "";
-	String pw = "";
+	String id = "springreference";
+	String pw = "01234567";
 
 	Class.forName("org.mariadb.jdbc.Driver");
 	conn = DriverManager.getConnection(url, id, pw);
@@ -56,6 +56,8 @@
 	}
 	%>
 	<h1><%=name%></h1>
+	<button type="button" class="btn btn-primary" onclick="location.href='./login.jsp'">로그인</button>
+	<button type="button" class="btn btn-danger" onclick="location.href='./write.jsp'">글쓰기</button>
 	<table class="table table-striped">
 		<thead>
 			<tr>
