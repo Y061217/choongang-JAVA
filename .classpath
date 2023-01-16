@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Java0105/src"/>
+	<classpathentry kind="src" path="Java230102/src"/>
+	<classpathentry kind="src" path="JavaQuiz/src"/>
+	<classpathentry excluding="src/" kind="src" path="Java0105"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
