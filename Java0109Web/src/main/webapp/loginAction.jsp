@@ -1,4 +1,4 @@
-<%@page import="com.poseidon.db.DBConnection"%>
+<%@page import="sql.DBConnection"%>
 <%@page import="java.util.HashMap"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.sql.Connection"%>
